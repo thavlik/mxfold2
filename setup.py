@@ -8,9 +8,9 @@ package_data = \
 {'': ['*'], 'mxfold2': ['models/*', 'src/*', 'src/fold/*', 'src/param/*']}
 
 install_requires = \
-['numpy>=1.18,<2.0',
+['numpy>=1.18,<2.4',
  'pybind11>=2.6.2,<3.0.0',
- 'torch>=1.4,<2.0',
+ 'torch>=1.4,<=2.7.1',
  'torchvision>=0,<1',
  'tqdm>=4.40,<5.0',
  'wheel>=0.38.0,<0.39.0']

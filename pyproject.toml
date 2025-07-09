@@ -10,7 +10,7 @@ license = "MIT"
 [tool.poetry.dependencies]
 python = "^3.7"
 numpy = "^1.18"
-torch = "^1.4"
+torch = "^2.7"
 torchvision = "^0"
 tqdm = "^4.40"
 wheel = "^0.38.0"
